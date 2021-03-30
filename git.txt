@@ -1,1 +1,6 @@
-cd - go to foldergit initgit add .git commit -m "Comitted.."
+cd desktop
+git init
+git add .
+git commit -m "changes committed"
+git remote add origin https://github.com/hkolipaka/AngularProject.git
+git push origin master
