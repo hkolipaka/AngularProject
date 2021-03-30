@@ -1,0 +1,28 @@
+Features of SQL:
+-High Performance
+-High availability
+-Database mirriong
+-database snapshots
+-CLR integration
+-Service Broker
+-XML integration
+
+Components of SQL Server
+
+SQL Server Database
+system databases:
+Master: model tempdb msdb resource
+Adventure works wide worlds importers custom
+
+DDL:
+create,alter,drop
+
+DCL:
+grant,deny,revoke
+
+DML:
+select,insert,update,delete
+
+
+
+SQL Server managment studio

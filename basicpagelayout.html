@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Basic Page Layout</title>
+        <meta charset="utf-8"></meta>
+        <style>
+            .container{
+            
+                width:1080px;
+                background-color: darkgray;
+                margin:auto;
+            }
+            .divy{
+                border:1px solid black;
+                height:200px;
+            }
+            #block2{
+                height:100px;
+                background-color: #0A337F;
+                color:white;
+            }
+            .main_menu{
+                width: 60%;
+                float:left;
+
+            }
+            .sidemenu{
+                width:40%;
+                float:right;
+            }
+            .clearfix{
+                clear:both;
+
+            }
+        </style>
+    
+</head>
+<body>
+<div class="container">
+    <div id="block1" class="divy">Header</div>
+    <div id="block2" class="divy">Nav</div>
+    <div class="main_menu">
+    <div id="block3" class="divy">Content1</div>
+    <div id="block3" class="divy">Content2</div>
+    <div id="block3" class="divy">Content3</div>
+    </div>
+    <div class="sidemenu">
+    <div id="block3" class="divy">Content4</div>
+    <div id="block4" class="divy">Content5</div>
+    </div>
+    <div id="block5" class="divy clearfix">Footer</div>
+</div>
+</body>
+</html>

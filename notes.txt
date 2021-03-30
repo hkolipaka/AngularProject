@@ -1,0 +1,276 @@
+ref :   lorem ipsum
+	placehold.it
+	codepen.io
+	w3.org
+	css colorpicker
+	google fonts
+	css gradient
+
+
+padding: inside border
+margin: outside the image with respect to other elements
+
+HTML BOILER 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,intial-scale=1.0">
+<title>HTML Lessons</title> </head>
+<body></body>
+</html>
+
+SOME SEPEREATOR TAGS:
+<p>
+<br>-line break
+<hr>-horizontal rule
+
+<!--comment-->
+
+<pre> </pre> --- renders same as in the source code with whitespaces
+
+CHARACTER CODES:
+&copy; - copyright symbol
+
+COMMON MARKUPS:
+<small>
+<big>
+<mark>
+<del>- strike through
+<strike>
+<sub>
+<sup>
+<blockquote>
+<b>---------not semantic enough
+<strong>---used more frequently
+<i>
+<em>---------used more frequntly
+<u>-----------underline
+<q>---------quotes
+<cite>------to cite something
+<code>
+<abbr>
+
+
+HYPERLINKS:
+<a href="" target="_blank"></a>
+
+target="_blank" - new window
+	_self   - same window
+	_parent - parent window
+
+Bookmarking:
+href="#....."
+id="....."
+href="mailto:...@.."
+
+IMAGES:
+<img src="url" alt="cat picture" width="100px" height="200px"></img>
+Width & Height are usually provided with in the style.
+IF only one is specefied the images are automatically resized.
+
+THUMBNAILS : Links to images
+
+LISTS:
+<ul> - unordered list
+<li> - list items
+<ol start="5" type="a/i(romans)/I(upper romans)" style="list-style-type:disc"> - ordered lists
+<dl>-descriptive lists
+<dt>
+<dd>
+
+TABLES:
+<table>
+<thead></thead>
+<tr> ------------rows /////    <th> </th> -table headings
+<td colspan="2" rowspan="2"></td> -----columns
+</tr>
+</table>
+
+
+Ways to link style:
+1. <style></style>
+2. <link rel="stylesheet" href="style.css">
+
+
+Forms:
+<form action="login.php" method="post">
+<label for="fn">
+firstname : <input id="fn" type="text" name="firstname" placeholder=""></label>
+username : <input type="text" name="username" value="">
+Password : <input type="password">
+<input type="submit" value="login">
+</form>
+
+Different types of TYPE :
+radio
+checkbox
+* we can mention [checked] inside to already check as default.
+color
+date
+email
+number min="" max=""
+url
+tel
+datetime-local
+range min="" max=""
+file
+
+<select name="subject"> tag for drop downs
+<option value="billing isuuse">Billing</option>
+</select>
+
+<textarea rows="5" cols="50"></textarea>
+<button type="button>Click Me?</button>
+
+
+Semantic Elements:
+<header>
+<nav>
+<footer>
+
+<iframe src="" height="" width="">
+
+
+
+
+CSS: Cascading Style Sheet
+
+IF we have multiple styles set in the webpage i.e. inline external .....the last style in the code will be applied.
+<div> - For whole block
+<span> - For a particular word
+
+
+if id=top
+in css we acess that using #top
+class=
+then we can acess that using .classname
+
+rgba(,,,,) alpha is transparent
+
+
+Background:
+background-repeat:no-repeat
+background-position: center
+background-image:url(),url();
+background-attachment:
+background-color:
+background:linear-gradient(to top left,rgba(255,0,0,0.5)purple,orange,red,blue)
+
+background: colour url repeat attachmnet position         ----------> shorthand
+
+Border:
+border-color:
+border-width:
+border-style:
+border-top-color:
+border-radius:
+height
+border: dashed black 2px;
+
+Outline:yellow solid 2px;
+
+Margins:
+margin-top:
+margin-bottom:
+margin: top left
+top right bottom left
+
+
+.container
+{
+max-width:
+width:
+margin:auto; ------------------> the content will be in center
+}
+
+
+Fonts and text:
+font-family:
+font-size:
+font-style:
+font-weight:
+font:italic bold 30px fantasy; ---------->shorthand
+
+Text:
+text-align:
+text-shadow:
+
+
+line-height:
+letter-spacing:
+
+LINK STATES
+a:link
+a:visited
+a:hover
+a:active
+
+
+display:inline
+	inline-block allow us to specefiy width and height to a span.
+	block
+
+visibilty:hidden space in the web page will be reserved but will be displayed as none.
+display:none	space in the we page will not reserved and nothing will be displayed.
+
+
+Position:
+position:static
+	relative we can move left and right top and bottom by some width
+	fixed
+	absolute 
+
+CSS COMBINATORS: >immediate or children
+		 + adjacent
+		~next to
+
+Psuedo classes
+section p:first-child
+	  last-child
+	  n-th child
+
+Psuedo Elements:
+p:: first-element
+    first-line
+    first-letter
+    selection
+    after
+    before
+
+CSS Selectors by attributes:
+input[type="submit"] 
+     [type="button"]
+[class*="e"]
+[href*="#"]
+
+
+
+Media Queries:
+
+@media all and (min-width:800px)
+body{
+background-color:red;
+}
+
+
+CSS Animation
+@keyframe myanimation{
+from or 0%{
+top:0px;
+width:100%;
+background-color:red;
+}
+
+we can even have what happens at 50%
+to or 100%{
+top:500px;
+width:50%;
+backgroung-color:blue;
+}
+}
+
+animation-name: myanimation
+animation-duration:3s
+
+

@@ -1,0 +1,76 @@
+<element title="">this is a html file</element>
+
+<!DOCTYPE html>--1. it specefies which version of html is being used to the browser.
+		 2. it is the first declaration in html5 document before any code is written it.
+
+DOM(DOCUMENT OBJECT MODEL) Structure:
+<!DOCTYPE html>
+<html> 
+	<head> 
+	<meta charset="utf-8">
+	<title>HTML WEBINAR</title>
+
+	<link type="css" rel="stylesheet" href="first.css"> 
+	[<script = src="first.js"></script>] ideally placed at the end
+	</head>
+	<body>This is my web page</body>
+</html>
+
+
+Enteties : these are spl characters that teserved in html
+	   to display them we use the following syntax
+            &nbsp for space
+	    &lt for less than
+	    &amp for ampercend.
+
+
+What is HTML5?
+
+New semantic markup + javascript APIs = HTML5
+New semantic markup tags:
+like article- main text
+     aside  - text to the side
+     section- 
+     audio
+     video
+     canvas
+     source
+
+can be used insted of div for the sake of readability , 
+aside does not automatically get alignrd to the left or rigjt  we need to assign css to align , 
+this is just for readability.
+
+DATALIST - 
+Summary
+details
+embed
+figure
+figcaption
+meter
+progress
+wbr - word break
+
+Modernizr- to check the compatibility of the browser.
+
+minifier- used to reduce the size of the javascript file , 
+(without any psaxes , tabs)
+
+
+Comments -  <!-- -->
+
+definition list: tags
+<dl>
+<dt></dt>
+<dd></dd>
+</dl>
+
+<b> <i> <u> /<strong> <em> <ins>
+<del> -strike through
+<mark> - highlight
+
+
+<nav>- for a set of navigation links
+<details> - for displyaing some info underf it
+
+
+
